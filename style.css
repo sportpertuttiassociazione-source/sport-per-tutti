@@ -348,7 +348,7 @@ footer {
 .hero-home {
   background:
   linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-  url('assets/images/hero.avif');
+  url('hero.avif');
 
   background-size: cover;
   background-position: center;
