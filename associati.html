@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Associati - Sport Per Tutti</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="container nav">
+    <img src="assets/logo.png" alt="Logo Sport Per Tutti" class="logo">
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="chi-siamo.html">Chi Siamo</a></li>
+        <li><a href="cosa-facciamo.html">Cosa Facciamo</a></li>
+        <li><a href="soci.html">Soci</a></li>
+        <li><a href="associati.html">Associati</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+
+    <h1>Richiedi Iscrizione</h1>
+
+    <p>
+      Compila il modulo per richiedere informazioni
+      o diventare socio dell’associazione.
+    </p>
+
+  </div>
+</section>
+
+<section class="about-preview">
+  <div class="container">
+
+    <form action="https://formsubmit.co/sportpertuttiassociazione@gmail.com" method="POST" class="contact-form">
+
+      <input type="hidden" name="_captcha" value="false">
+
+      <input type="text" name="nome" placeholder="Nome e Cognome" required>
+
+      <input type="email" name="email" placeholder="Email" required>
+
+      <input type="tel" name="telefono" placeholder="Telefono" required>
+
+      <select name="tipo_socio" required>
+        <option value="">Seleziona Tipologia Socio</option>
+        <option>Socio Base - 15€</option>
+        <option>Socio Supporter - 50€</option>
+        <option>Socio Partner - 150€</option>
+      </select>
+
+      <textarea name="messaggio" rows="6" placeholder="Messaggio"></textarea>
+
+      <button type="submit" class="btn">
+        Invia Richiesta
+      </button>
+
+    </form>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2026 Sport Per Tutti - Associazione Culturale</p>
+
+    <div class="socials">
+      <a href="https://www.facebook.com/sportpertuttihub" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/sportpertuttihub/" target="_blank">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
